@@ -14,7 +14,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 name = "cloudflare-docker-proxy"
 routes = [
   { pattern = "docker.binutils.cn", custom_domain = true },
-  { pattern = "quey.binutils.cn", custom_domain = true },
+  { pattern = "quay.binutils.cn", custom_domain = true },
   { pattern = "gcr.binutils.cn", custom_domain = true },
   { pattern = "k8s-gcr.binutils.cn", custom_domain = true },
   { pattern = "k8s.binutils.cn", custom_domain = true },
